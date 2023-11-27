@@ -11,6 +11,6 @@ spec:
     - ReadWriteOnce # Leitura/Escrita somente em 1 nó
   persistentVolumeReclaimPolicy: Retain
   hostPath:
-    path: /mnt/data
+    path: /data/local
   storageClassName: giropops
 
