@@ -4,3 +4,7 @@ nodes:
   - role: control-plane
   - role: worker
   - role: worker
+  - role: worker
+# Para usarmos o cilium como CNI temos que utilizar o parametro abaixo
+#networking:
+#  disableDefaultCNI: true
